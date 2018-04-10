@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <title>About Me</title>
     <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+            border: 1px solid black;
+        }
+
+        tr:nth-child(even){background-color: whitesmoke}
+
+        th {
+            background-color: grey;
+            color: black;
+        }
+    </style>
 
 </head>
 <body>
@@ -16,22 +34,47 @@
     <div class="center">
     <h1> Introduction </h1>
 
-    <p> My name is Awais Ijaz. I am an enigneering graduate from Queen Mary University of London. <br/>
+    <p> My name is Awais Ijaz. I am an engineering graduate from Queen Mary University of London. <br/>
     My passion for technology has lead me to pursue a career within IT. To get my career started, I am training with QA Consulting to become a professional IT consultant.
     </div>
 
     </p>
 
+    <div id="achievments">
     <h2> Achievements </h2>
 
-    <h3> Name of achievments 1</h3>
-    <p> My achievements. </p>
+    <h3> MEng Mechanical Engineering Graduate </h3>
+    <p> Studied MEng mechanical engineering at Queen Mary University of London where I achieved an upper second class honours </p>
 
-    <h3> Name of achievments 2</h3>
-    <p> My achievements. </p>
+    <h3> Best MEng Project of 2016</h3>
+    <p> Showcased my MEng group project at the Industrial Liason Forum event held at Queen Mary University of London and was awarded the Best MEng Group Project of 2016 by the panel of judges. </p>
+    </div>
 
-    <h3> Name of achievments 3</h3>
-    <p> My achievements. </p>
+    <div id="programming">
+    <h2> Programming Languages </h2>
+    <table>
+        <tr>
+            <th>Start Date</th>
+            <th>Finish Date</th>
+            <th>Programming Language</th>
+        </tr>
+        <tr>
+            <td>Mar 2017</td>
+            <td>Mar 2017</td>
+            <td>Java SE</td>
+        </tr>
+        <tr>
+            <td>Mar 2017</td>
+            <td>Mar 2017</td>
+            <td>SQL</td>
+        </tr>
+        <tr>
+            <td>Mar 2017</td>
+            <td>Mar 2017</td>
+            <td>Linux</td>
+        </tr>
+    </table>
+    </div>
 
 </body>
 </html>

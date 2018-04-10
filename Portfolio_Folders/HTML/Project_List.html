@@ -4,7 +4,23 @@
     <meta charset="UTF-8">
     <title>Project List</title>
     <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <style>
+    table{
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
 
+    tr:nth-child(even){background-color: grey}
+
+    th {
+        background-color: grey;
+        color: white;
+    }
+    </style>
 </head>
 <body>
 
@@ -18,27 +34,31 @@
     <h1> Project List </h1>
     </div>
 
+    <div id="projects">
     <table>
         <tr>
             <th>Start Date</th>
             <th>Finish Date</th>
             <th>Project Outline</th>
+            <th>Resources</th>
             </tr>
             <tbody>
             <tr>
             <td>Sept 2015</td>
             <td>June 2016</td>
-            <td>Production of a portable wind turbine</td>
+            <td>Production of a portable, fully functional, commercially viable wind turbine to generate electricity to refugee camps </td>
+            <td> abc </td>
             </tr>
             <tbody>
             <tr>
             <td>Mar 2018</td>
             <td>Apr 2018</td>
             <td>Developing a programming game on Java</td>
+            <td>abc</td>
             </tr>
             </tbody>
     </table>
-
+    </div>
 
 </body>
 </html>

@@ -5,6 +5,9 @@
 @charset "ISO-8859-1";
 body{
     background-color: lightgrey;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 ul {
     list-style-type: none;
@@ -34,4 +37,41 @@ li a:hover {
 .center {
     text-align: center;
     border: 3px solid black;
+}
+
+#paragraph1{
+    float: left;
+    padding: 15px;
+    width: 500px;
+    position: relative;
+    left:100px;
+}
+
+#paragraph2 {
+    float: right;
+    padding: 15px;
+    width: 500px;
+    position: relative;
+    left: 250px;
+}
+
+#achievments{
+    float: left;
+    padding: 15px;
+    width: 500px;
+    position: relative;
+    left:100px;
+}
+
+#programming{
+    float: right;
+    padding: 15px;
+    width: 500px;
+    position: relative;
+    right: 100px;
+    top:0px;
+}
+
+#projects{
+    text-allign : center;
 }
